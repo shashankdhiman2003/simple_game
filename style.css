@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: radial-gradient(ellipse at center, #000000 0%, #0d0d0d 100%);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+}
+
+.overlay h1 {
+  font-size: 3em;
+  color: #0ff;
+  text-shadow: 0 0 20px #0ff;
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 1.2em;
+  color: #ccc;
+  text-shadow: 0 0 5px #0ff;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+  z-index: 1;
+}
